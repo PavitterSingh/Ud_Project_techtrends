@@ -1,0 +1,154 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.14:3111
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 66, in index
+    post_count = conn.execute('SELECT COUNT(*) FROM posts').fetchone()[0]
+NameError: name 'conn' is not defined
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 22:44:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.14:3111
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 66, in index
+    post_count = conn.execute('SELECT COUNT(*) FROM posts').fetchone()[0]
+NameError: name 'conn' is not defined
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 22:46:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.14:3111
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 66, in index
+    post_count = conn.execute('SELECT COUNT(*) FROM posts').fetchone()[0]
+NameError: name 'conn' is not defined
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 22:48:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.14:3111
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 66, in index
+    post_count = conn.execute('SELECT COUNT(*) FROM posts').fetchone()[0]
+NameError: name 'conn' is not defined
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 22:51:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 66, in index
+    post_count = conn.execute('SELECT COUNT(*) FROM posts').fetchone()[0]
+NameError: name 'conn' is not defined
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 22:51:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.14:3111
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Gurno\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 66, in index
+    post_count = conn.execute('SELECT COUNT(*) FROM posts').fetchone()[0]
+NameError: name 'conn' is not defined
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 22:54:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.14:3111
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 22:59:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 22:59:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 22:59:53] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:00:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:00:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:02:20] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:02:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:02:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:02:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.14:3111
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:10:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:10:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article "KubeCon + CloudNativeCon 2021" retrieved!
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:10:21] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:10:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:10:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:10:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.14:3111
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:16:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:16:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:16:34] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:16:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article "test123" created!
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:16:48] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:16:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:16:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article "test123" retrieved!
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:17:00] "GET /7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:17:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:17:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2025 23:17:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
