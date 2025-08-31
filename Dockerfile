@@ -14,7 +14,7 @@ COPY . /app
 
 #  defines the working directory within the container
 
-WORKDIR /app
+WORKDIR /app/techtrends
 
 # run commands within the container. 
 # For example, invoke a pip command 
